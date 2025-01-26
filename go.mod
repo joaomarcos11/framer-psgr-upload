@@ -1,4 +1,4 @@
-module github.com/filipeandrade6/framer-pre-signed
+module github.com/filipeandrade6/framer-psgr-upload
 
 go 1.23.2
 

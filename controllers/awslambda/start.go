@@ -3,7 +3,7 @@ package awslambda
 import (
 	"log/slog"
 
-	"github.com/filipeandrade6/framer-pre-signed/domain/usecases"
+	"github.com/filipeandrade6/framer-psgr-upload/domain/usecases"
 
 	"github.com/aws/aws-lambda-go/lambda"
 )

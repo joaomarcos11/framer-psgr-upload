@@ -9,8 +9,8 @@ import (
 	"github.com/aws/aws-lambda-go/events"
 	"github.com/golang-jwt/jwt/v5"
 
-	"github.com/filipeandrade6/framer-pre-signed/domain/service"
-	"github.com/filipeandrade6/framer-pre-signed/domain/usecases"
+	"github.com/filipeandrade6/framer-psgr-upload/domain/service"
+	"github.com/filipeandrade6/framer-psgr-upload/domain/usecases"
 )
 
 type Handler struct {

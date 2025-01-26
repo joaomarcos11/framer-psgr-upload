@@ -5,9 +5,9 @@ import (
 	"log/slog"
 	"os"
 
-	"github.com/filipeandrade6/framer-pre-signed/adapters/message/awssqs"
-	"github.com/filipeandrade6/framer-pre-signed/adapters/presigner/awss3"
-	"github.com/filipeandrade6/framer-pre-signed/controllers/awslambda"
+	"github.com/filipeandrade6/framer-psgr-upload/adapters/message/awssqs"
+	"github.com/filipeandrade6/framer-psgr-upload/adapters/presigner/awss3"
+	"github.com/filipeandrade6/framer-psgr-upload/controllers/awslambda"
 )
 
 func main() {
