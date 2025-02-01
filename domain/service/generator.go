@@ -15,7 +15,7 @@ func Generate(email string, msgrSvc usecases.Messager, psgrSvc usecases.Presigne
 		return "", errors.New(fmt.Sprintf("failed to generate pre-signed url to upload: %s", err))
 	}
 
-	err = msgrSvc.SendMessage("framer-status.fifo", fmt.Sprintf("%s.%s.%s", filename, "solicitado", email))
+	err = msgrSvc.SendMessage("framer-status.fifo", fmt.Sprintf("%s.%s.%s", filename, "SOLICITADO", email))
 	if err != nil {
 		return "", errors.New(fmt.Sprintf("failed to send message: %s", err))
 	}
