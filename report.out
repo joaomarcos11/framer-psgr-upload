@@ -1,0 +1,3 @@
+{"Time":"2025-02-06T20:54:22.966239583-03:00","Action":"start","Package":"github.com/filipeandrade6/framer-psgr-upload"}
+{"Time":"2025-02-06T20:54:22.966308544-03:00","Action":"output","Package":"github.com/filipeandrade6/framer-psgr-upload","Output":"?   \tgithub.com/filipeandrade6/framer-psgr-upload\t[no test files]\n"}
+{"Time":"2025-02-06T20:54:22.966325314-03:00","Action":"skip","Package":"github.com/filipeandrade6/framer-psgr-upload","Elapsed":0}
